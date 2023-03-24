@@ -8,14 +8,14 @@ module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('imggpt')
 		.setDescription('openai bot').addStringOption(option =>
-            option.setName('dis')
+            option.setName('discription')
                 .setDescription('ask chatgpt bot')
         ),
 	async execute(interaction) {
-        const dis=interaction.options.getString('dis')
+        const discription=interaction.options.getString('discription')
         await interaction.deferReply();
         const response = await openai.createImage({
-            prompt: dis,
+            prompt: discription,
             n: 1,
             size: "1024x1024",
           });

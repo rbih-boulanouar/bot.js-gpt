@@ -3,7 +3,8 @@
     "@discordjs/voice": "^0.14.0",
     "async": "^3.2.4",
     "discord.js": "^14.7.1",
-    "openai": "^3.2.1"
+    "openai": "^3.2.1",
+    "truecallerjs": "^1.1.5"
   },
   "name": "bot",
   "description": "",
