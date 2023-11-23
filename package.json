@@ -4,7 +4,7 @@
     "async": "^3.2.4",
     "discord.js": "^14.7.1",
     "openai": "^4.20.0",
-    "truecallerjs": "^1.1.5"
+    "truecallerjs": "^2.2.0"
   },
   "name": "bot",
   "description": "",
